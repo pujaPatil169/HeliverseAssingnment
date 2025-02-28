@@ -1,0 +1,69 @@
+Assignment: Hotel & Restaurant Booking Website
+Objective:
+This assignment is designed to assess your full-stack development skills by building a comprehensive Hotel & Restaurant Booking website. The project should focus on robust backend API development alongside a user-friendly and responsive front end. The website will enable customers to search for and book hotels and restaurants, allow vendors to add and manage their property listings, and empower administrators to approve and oversee all listings and bookings.
+
+Key Roles & Features:
+Customer Functionality
+ Role: Customer
+
+
+Browse & Search: Explore available hotels and restaurants with filtering options such as location, price, ratings, and amenities.
+View Details: Access comprehensive listing details including descriptions, images, facilities, pricing, and availability.
+Booking: Book hotel rooms or restaurant tables and manage reservations.
+Payment Simulation  (Optional) : Integrate a dummy payment gateway to simulate payment processing.
+History & Reviews  (Optional) : View booking history and provide reviews/ratings for services availed.
+Vendor/Partner Functionality
+ Role: Vendor/Partner (Hotel & Restaurant Owner/Manager)
+
+
+Listing Management: Add new hotel or restaurant listings by providing key details such as:
+Property Name
+Address (including City, State, Zip)
+Contact Information
+Description and Facility Details
+Pricing Information and Available Room/Table Types
+Upload Images  
+Booking Management: Receive and manage booking requests for their listings, update availability, and track booking statuses.
+Analytics: (Optional) Access basic analytics such as booking counts and revenue per listing.
+
+Backend Requirements:
+API Development:
+
+
+Develop RESTful APIs for all functionalities including authentication (JWT or OAuth), listing management, booking operations, and review submissions.
+Implement role-based access control to ensure that Customers, Vendors, and Admins can only access their permitted functionalities.
+Database Design:
+
+
+Design a robust schema to store (feel free to make adjustments):
+Users: (UserID, Name, Email, Password, Role [Customer, Vendor, Admin], Contact Details)
+Listings: (ListingID, VendorID, Type [Hotel/Restaurant], Name, Address, Description, Facilities, Pricing, Images)
+Units: For Hotels (Room types) or Restaurants (Table types) including capacity, price, and availability details.
+Bookings: (BookingID, CustomerID, ListingID, UnitID, Booking Dates/Times, Status, Payment Details)
+Reviews: (ReviewID, BookingID, CustomerID, Rating, Comments, Timestamp)
+Suggested Tech Stack:
+
+use mern stack
+Alternatives: Node.js with Express.js.
+
+
+
+Frontend Requirements:
+Dashboards:
+
+
+Customer Dashboard: For searching listings, managing bookings, and leaving reviews.
+Vendor Dashboard: For adding new listings, managing existing listings, and tracking booking requests.
+Admin Dashboard: (Optional) For approving listings, overseeing user activities, and monitoring system metrics. 
+
+
+
+Design:
+
+
+Ensure a responsive and intuitive user interface using modern frameworks like React.js or Vite.js. use vite react app
+Utilize styling libraries such as Material UI or Tailwind CSS.
+Feel Free to use any Prebuild templates for frontend dashboards.
+Preferred: mern stack , can use mui , don't use vite prisma sql , and give me complete code all the code files to
+...  build this project of hotel and restaurant booking mention in above assingment following all the criteria and func
+... tionality , features  given in assignment
